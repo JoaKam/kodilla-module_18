@@ -16,7 +16,6 @@ public class TasksApplication {
         //Long id = taskDto.getId();
         //String title = taskDto.getTitle();
         //String content = taskDto.getContent();
-
         //System.out.println(id + " " + title + " " + content);
 
         SpringApplication.run(TasksApplication.class, args);
