@@ -24,7 +24,6 @@ public class TaskController {
 
     @RequestMapping(method = RequestMethod.DELETE, value = "deleteTask")
     public void deleteTask(String taskId) {
-
     }
 
     @RequestMapping(method = RequestMethod.PUT, value = "updateTask")
@@ -32,7 +31,7 @@ public class TaskController {
         return new TaskDto((long) 1, "Edited test title", "Test_content");
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "updateTask")
+    @RequestMapping(method = RequestMethod.POST, value = "createTask")
     public void createTask(TaskDto taskDto) {
 
     }
