@@ -35,5 +35,6 @@ dependencies {
 	compileOnly "org.projectlombok:lombok:1.16.18"
 	//compile('mysql:mysql-connector-java')
 	compile('org.postgresql:postgresql')
-	//providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+	compile group: 'org.postgresql', name: 'postgresql', version: '9.4-1200-jdbc41'
+    //providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 }
